@@ -1,1 +1,1 @@
-package.skeleton(name="my_first_package")
+package.skeleton(name="myfirstpackage")
