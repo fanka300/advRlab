@@ -1,6 +1,6 @@
 language: r
 cache: packages
 install:
-  - Rscript -e 'devtools::install_deps("Package")'
+  - Rscript -e 'install.packages("devtools");devtools::install_deps("RPackage")'
 script:
   - Rscript -e 'devtools::check("Package")'
