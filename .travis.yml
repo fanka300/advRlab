@@ -4,4 +4,4 @@ cache: packages
 install:
   - Rscript -e 'install.packages("devtools");install.packages("/tmp/RtmpAuTRET/downloaded_packages")'
 script:
-  - Rscript -e 'devtools::check("RPackage")'
+  - Rscript -e 'devtools::check("/tmp/RtmpAuTRET/downloaded_packages")'
