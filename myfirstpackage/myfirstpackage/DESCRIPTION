@@ -1,0 +1,9 @@
+Package: myfirstpackage
+Type: Package
+Title: Euclidean algorithm and Dijkstra's algorithm
+Version: 1.0
+Date: 2017-09-16
+Author: Fanny Karelius
+Maintainer: Fanny Karelius <fanny.karelius@telia.com>
+Description: Euclidean-to find greatest common denominator. Dijkstra's-find shortest path
+License: What license is it under?
