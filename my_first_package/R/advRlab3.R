@@ -1,5 +1,15 @@
 #package.skeleton(name="my_first_package")
 
+#' Euclidean algorithm
+#' 
+#' @param a A number
+#' @param b A number
+#' @return The greatest common denominator of \code{a} and \code{b}
+#' @examples
+#' euclidean(10,100)
+#' euclidean(25,125)
+#' \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+
 euclidean <- function(a,b){
   while(b != 0){
     temp <- b
@@ -19,6 +29,14 @@ euclidean <- function(a,b){
 euclidean(100,1000)
 euclidean(123612, 13892347912)
 
+#' Dijkstra's algorithm
+#' @param graph A data frame with three vectors
+#' @param init_node A start node
+#' @return The shortest path from \code{init_node} to the other nodes in \code{graph}
+#' @examples
+#' dijkstra(wiki_graph, 4)
+#' 
+#' \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
 
 dijkstra <- function(graph, init_node){
   #graph is a data frame with vectors v1, v2, w
